@@ -1,8 +1,8 @@
 class Solution {
     public int solution(int n) {
-        int answer = 0;
+        int answer = 1;
         
-        for(int i = 1; i <= n; i++) {
+        for(int i = 1; i <= n/2; i++) {
         	if(sumStream(i, n)) {
         		answer++;
         	}
