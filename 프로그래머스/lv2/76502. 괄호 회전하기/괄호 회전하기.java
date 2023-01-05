@@ -16,9 +16,7 @@ class Solution {
        ArrayList<Character> closeArr = new ArrayList<>();
        closeArr.add(')');
        closeArr.add('}');
-       closeArr.add(']');       
-       
-       
+       closeArr.add(']');    
        
        s.getChars(0, s.length(), charsArr, 0);
        
